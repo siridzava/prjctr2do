@@ -55,9 +55,18 @@ input {
     color: #fff;
 }
 
+.add-task:hover {
+    background-color: #468abe;
+    color: #eaeaea;
+}
+
 .clear-tasks {
     margin: 40px 0;
     background-color: #faeea8;
+}
+
+.clear-tasks:hover {
+    background-color: #f7e26c;
 }
 
 .task-text {

@@ -155,7 +155,7 @@ function filterTasks(e) {
     document.querySelectorAll('.collection-item').forEach(function (task) {
         const item = task.firstChild.textContent;
         if (item.toLowerCase().includes(text.toLowerCase())) {
-            task.style.display = 'block';
+            task.style.display = 'flex';
         } else {
             task.style.display = 'none';
         }
